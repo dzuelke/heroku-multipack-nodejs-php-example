@@ -9,6 +9,9 @@
 	"scripts": {
 		"post-install-cmd": [
 			"PATH=`pwd`/vendor/node/bin:$PATH ./node_modules/bower/bin/bower install"
+		],
+		"post-update-cmd": [
+			"PATH=`pwd`/vendor/node/bin:$PATH ./node_modules/bower/bin/bower install"
 		]
 	}
 }
