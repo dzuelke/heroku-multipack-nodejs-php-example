@@ -1,0 +1,6 @@
+{
+    "name": "multitest",
+    "dependencies": {
+        "bootstrap": "*"
+    }
+}

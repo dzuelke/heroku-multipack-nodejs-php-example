@@ -1,5 +1,14 @@
 {
+	"name": "multitest",
 	"require": {
 		"monolog/monolog": "~1.8"
+	},
+	"require-dev": {
+		"heroku/heroku-buildpack-php": "dev-master"
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"PATH=`pwd`/vendor/node/bin:$PATH ./node_modules/bower/bin/bower install"
+		]
 	}
 }
