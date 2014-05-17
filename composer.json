@@ -4,7 +4,7 @@
 		"monolog/monolog": "~1.8"
 	},
 	"require-dev": {
-		"heroku/heroku-buildpack-php": "dev-master"
+		"heroku/heroku-buildpack-php": "*"
 	},
 	"scripts": {
 		"post-install-cmd": [

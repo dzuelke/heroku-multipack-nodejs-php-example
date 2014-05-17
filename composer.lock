@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0ab47fc87690c61f87a904e7ef1d68b7",
+    "hash": "13b24cebae6cea209ec35f3dbdc5f4c2",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -115,7 +115,7 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "dev-master",
+            "version": "v14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
@@ -162,9 +162,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "heroku/heroku-buildpack-php": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
