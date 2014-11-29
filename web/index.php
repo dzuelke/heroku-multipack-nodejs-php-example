@@ -21,7 +21,7 @@
     
     <p>Running <strong class="text-success">PHP/<?=PHP_VERSION?></strong> on Heroku using the <a href="https://github.com/heroku/heroku-buildpack-php">standard PHP buildpack</a>, serving a site using <a href="http://getbootstrap.com">Bootstrap</a> which was downloaded by <a href="http://bower.io">Bower</a>, which in turn was installed by the <a href="https://github.com/heroku/heroku-buildpack-nodejs">standard Node.js buildpack</a>.</p>
     
-    <p>Both put together using <a href="https://github.com/ddollar/heroku-buildpack-multi">ddollar/heroku-buildpack-multi</a>.</p>
+    <p>Both put together using <a href="https://github.com/heroku/heroku-buildpack-multi">heroku/heroku-buildpack-multi</a>.</p>
     
     <p>Source: <a href="https://github.com/dzuelke/heroku-multipack-nodejs-php-example">dzuelke/heroku-multipack-nodejs-php-example</a>
   </body>
