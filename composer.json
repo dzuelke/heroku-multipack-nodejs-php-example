@@ -8,10 +8,10 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"PATH=`pwd`/vendor/node/bin:$PATH ./node_modules/bower/bin/bower install"
+			"$(npm bin -q)/bower install"
 		],
 		"post-update-cmd": [
-			"PATH=`pwd`/vendor/node/bin:$PATH ./node_modules/bower/bin/bower install"
+			"$(npm bin -q)/bower install"
 		]
 	}
 }

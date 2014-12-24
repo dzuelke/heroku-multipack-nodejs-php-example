@@ -19,7 +19,7 @@
   <body class="container">
     <h1>Hello, world! <small>PHP + Node.js on Heroku</small></h1>
     
-    <p>Running <strong class="text-success">PHP/<?=PHP_VERSION?></strong> on Heroku using the <a href="https://github.com/heroku/heroku-buildpack-php">standard PHP buildpack</a>, serving a site using <a href="http://getbootstrap.com">Bootstrap</a> which was downloaded by <a href="http://bower.io">Bower</a>, which in turn was installed by the <a href="https://github.com/heroku/heroku-buildpack-nodejs">standard Node.js buildpack</a>.</p>
+    <p>Running <strong class="text-success">PHP/<?=PHP_VERSION?></strong> on Heroku using the <a href="https://github.com/heroku/heroku-buildpack-php">standard PHP buildpack</a>, serving a site using <a href="http://getbootstrap.com">Bootstrap</a> which was downloaded by <a href="http://bower.io">Bower</a>, which in turn was installed by the <a href="https://github.com/heroku/heroku-buildpack-nodejs#yoga">standard Node.js buildpack (using the `yoga` branch currently)</a>.</p>
     
     <p>Both put together using <a href="https://github.com/heroku/heroku-buildpack-multi">heroku/heroku-buildpack-multi</a>.</p>
     
