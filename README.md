@@ -7,3 +7,14 @@ In this example, we're using [Bower](http://bower.io) in a [Composer](http://get
 To try this, clone this repo, `heroku create --buildpack https://github.com/heroku/heroku-buildpack-multi`, then `git push heroku master`.
 
 Example: [http://heroku-multipack-nodejs-php-ex.herokuapp.com/](http://heroku-multipack-nodejs-php-ex.herokuapp.com/)
+
+## How it works
+
+1. The file `.buildpacks` instructs the Multi Buildpack which buildpacks to run in sequence
+1. The Node.js buildpack (`yoga` branch currently) installs Bower using NPM (see `package.json`/`npm-shrinkwrap.json`)
+1. The Node.js buildpack (on the `yoga` branch, to be merged) makes its binaries available to the next buildpack in the chain
+1. The PHP buildpack runs and installs dependencies using Composer
+1. As part of the composer install step, the `post-install-cmd` scripts run
+1. That executes `$(npm bin -q)/bower install` - `bower install` would work too, as `node_modules/.bin` is on `$PATH` on Heroku, but it would likely not work on local development environments, hence the more portable use of prefixing the result from `npm bin -q` to retrieve said directory name.
+1. Bower installs Bootstrap
+1. Done!
