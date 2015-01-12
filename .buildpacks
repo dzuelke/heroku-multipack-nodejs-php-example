@@ -1,2 +1,2 @@
-https://github.com/heroku/heroku-buildpack-nodejs.git#yoga
-https://github.com/heroku/heroku-buildpack-php.git
+https://github.com/heroku/heroku-buildpack-nodejs
+https://github.com/heroku/heroku-buildpack-php
