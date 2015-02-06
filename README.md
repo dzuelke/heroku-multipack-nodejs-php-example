@@ -4,7 +4,7 @@ This sample application for Heroku shows how [heroku/heroku-buildpack-multi](htt
 
 In this example, we're using [Bower](http://bower.io) in a [Composer](http://getcomposer.org) [post-install-cmd](https://getcomposer.org/doc/articles/scripts.md) to install [Bootstrap](http://getbootstrap.com).
 
-To try this, clone this repo, `heroku create --buildpack https://github.com/heroku/heroku-buildpack-multi`, then `git push heroku master`.
+To try it out, clone this repo, run `heroku create --buildpack https://github.com/heroku/heroku-buildpack-multi`, then `git push heroku master`. If you want to port this to an existing app, you'll need to `heroku config:set BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-multi`.
 
 Example: [http://heroku-multipack-nodejs-php-ex.herokuapp.com/](http://heroku-multipack-nodejs-php-ex.herokuapp.com/)
 
