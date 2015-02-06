@@ -6,6 +6,10 @@ In this example, we're using [Bower](http://bower.io) in a [Composer](http://get
 
 To try it out, clone this repo, run `heroku create --buildpack https://github.com/heroku/heroku-buildpack-multi`, then `git push heroku master`. If you want to port this to an existing app, you'll need to `heroku config:set BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-multi`.
 
+You can also quickly deploy a version of this example to Heroku by clicking the button below:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 Example: [http://heroku-multipack-nodejs-php-ex.herokuapp.com/](http://heroku-multipack-nodejs-php-ex.herokuapp.com/)
 
 ## How it works

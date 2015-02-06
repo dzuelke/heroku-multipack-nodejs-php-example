@@ -1,0 +1,16 @@
+{
+    "name": "heroku-multipack-nodejs-php-example",
+    "description": "A sample application for Heroku, showing how heroku/heroku-buildpack-multi can be used to combine Node.js and PHP, using Bower in a Composer post-install-cmd to install bootstrap.",
+    "keywords": [
+        "heroku",
+        "buildpack",
+        "PHP",
+        "Composer",
+        "Node.js",
+        "npm",
+        "Bower"
+    ],
+    "website": "http://heroku-multipack-nodejs-php-ex.herokuapp.com",
+    "repository": "https://github.com/dzuelke/heroku-multipack-nodejs-php-example",
+    "success_url": "/"
+}
