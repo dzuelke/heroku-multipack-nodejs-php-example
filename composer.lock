@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d43fa792c6d8d71e5e498282cbc5da42",
+    "hash": "02f5e162f33a696c710150cde59525d5",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -120,16 +120,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v55",
+            "version": "v64",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "1846cbd1f609872ff774c203bc525ae5829505eb"
+                "reference": "aea81319f561cf2eb581736b9b30e7a81c48363b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/1846cbd1f609872ff774c203bc525ae5829505eb",
-                "reference": "1846cbd1f609872ff774c203bc525ae5829505eb",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/aea81319f561cf2eb581736b9b30e7a81c48363b",
+                "reference": "aea81319f561cf2eb581736b9b30e7a81c48363b",
                 "shasum": ""
             },
             "bin": [
@@ -160,7 +160,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2015-01-07 20:04:25"
+            "time": "2015-02-19 09:59:04"
         }
     ],
     "aliases": [],

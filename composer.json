@@ -7,11 +7,8 @@
 		"heroku/heroku-buildpack-php": "*"
 	},
 	"scripts": {
-		"post-install-cmd": [
-			"$(npm bin -q)/bower install"
-		],
-		"post-update-cmd": [
-			"$(npm bin -q)/bower install"
+		"compile": [
+			"bower install"
 		]
 	}
 }
